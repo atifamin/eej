@@ -204,131 +204,172 @@ export const CreateContent = () => {
                                 </div>
                                 <div className="card-body pt-0 pb-5">
                                     <div className="row">
-                                        <table class="table table-striped table-row-bordered gy-5 gs-7 border rounded col-xl-8">
-                                            <thead className='fs-5'>
-                                                <th className='fw-bold'>Thèmes / Actions à réaliser avec l'appui du Conseiller Animateur</th>
-                                                <th className='fw-bold'>Date de réalisation</th>
-                                            </thead>
-                                            <tbody className='fs-6'>                                               
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        La préparation des écrits de postulation
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        La préparation d’un entretien d’embauche
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        L'envoi de candidatures spontanées aux entreprises
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        L’information sur le marché du travail
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        L’information sur les attentes et les exigences des entreprises
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        Des notions sur la législation du travail nationale
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        Identification des atouts et des insuffisances 
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        Les secteurs d’activités porteurs
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
+                                        <div className='col-xl-8'>
+                                            <table class="table table-striped table-row-bordered gy-5 gs-7 border rounded">
+                                                <thead className='fs-5'>
+                                                    <th className='fw-bold'>Thèmes / Actions à réaliser avec l'appui du Conseiller Animateur</th>
+                                                    <th className='fw-bold'>Date de réalisation</th>
+                                                </thead>
+                                                <tbody className='fs-6'>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            La préparation des écrits de postulation
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            La préparation d’un entretien d’embauche
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            L'envoi de candidatures spontanées aux entreprises
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            L’information sur le marché du travail
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            L’information sur les attentes et les exigences des entreprises
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            Des notions sur la législation du travail nationale
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            Identification des atouts et des insuffisances 
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            Les secteurs d’activités porteurs
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
 
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        Les emplois métiers très demandés
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        Les dispositifs de formation à l’emploi existants
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        L’entreprenariat, ses avantages, ses opportunités et ses exigences
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        Les activités porteuses
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                                <tr>
-                                                    <td className='fw-bold'>
-                                                        Les dispositifs d'accompagnement à l'entreprenariat
-                                                    </td>
-                                                    <td> - </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    
-                                        <table className="table table-striped table-row-bordered gy-5 gs-7 border rounded col-xl-4">
-                                            <thead>
-                                                <th>Actions à réaliser en autonome</th>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>-</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            Les emplois métiers très demandés
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            Les dispositifs de formation à l’emploi existants
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            L’entreprenariat, ses avantages, ses opportunités et ses exigences
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            Les activités porteuses
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td className='fw-bold'>
+                                                            Les dispositifs d'accompagnement à l'entreprenariat
+                                                        </td>
+                                                        <td> - </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <div className="col-md-6 py-4">
+                                                <table className='table gy-5 gs-7 border rounded'>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td className='text-center'>
+                                                                <img src="../../images/signature.png" alt="icon" />
+                                                                <hr className='border' />
+                                                                Signature du conseiller Animateur
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div className='col-xl-4'>
+                                            <table className="table table-striped table-row-bordered gy-5 gs-7 border rounded">
+                                                <thead className='fw-bold fs-5'>
+                                                    <th>Actions à réaliser en autonome</th>
+                                                </thead>
+                                                <tbody className='fs-6'>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <div className="col-md-6 col-xl-12 py-4">
+                                                <table className='table gy-5 gs-7 border rounded'>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td className='text-center'>
+                                                                <img src="../../images/signature.png" alt="icon" />
+                                                                <hr className='border' />
+                                                                Signature du conseiller Animateur
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
