@@ -10,19 +10,19 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 function App() {
   
   let logo= window.location.origin + '/images/logo.png';
-  let loginIcon= window.location.origin + '/images/login.png';
-
-  let activeMenu="here show";
+  let icon= window.location.origin + '/images/login.png';
+  let title="EEJ";
+  
   return (
     <BrowserRouter>
       <Routes>
         <Route path="*"             element={<NotFount />} />
-        <Route path="/"             element={<Login logo={logo} loginIcon={loginIcon} />} />
-        <Route path="login"         element={<Login logo={logo} loginIcon={loginIcon} />} />
-        <Route path="reinitialiser" element={<LoginNom logo={logo} />} />
-        <Route path="dashboard"     element={<Dashboard logo={logo} title="EEJ" active={activeMenu}/>} />
-        <Route path="create"           element={<Create logo={logo} title="EEJ" active={activeMenu}/>} />
-        <Route path="extraction"    element={<Extraction logo={logo} title="EEJ" active={activeMenu}/>} />
+        <Route path="/"             element={<Login     logo={logo} loginIcon={icon} />} />
+        <Route path="login"         element={<Login     logo={logo} loginIcon={icon} />} />
+        <Route path="reinitialiser" element={<LoginNom  logo={logo} />} />
+        <Route path="dashboard"     element={<Dashboard logo={logo} title={title} />} />
+        <Route path="create"           element={<Create  logo={logo} title={title} />} />
+        <Route path="extraction"    element={<Extraction logo={logo} title={title} />} />
       </Routes>
     </BrowserRouter>
   );

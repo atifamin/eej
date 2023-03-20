@@ -3,16 +3,16 @@ import React from 'react'
 export const ExtractionContent = () => {
   return (
     <>
-        <div className="app-toolbar py-3 py-lg-6">
+        <div className="col-12 py-5">
             <div className="app-container w-auto">
-                <h1 className="page-heading text-dark fw-bold fs-2 text-hover-primary">Extraction</h1>
+                <h1 className="page-heading text-dark fw-bold fs-2 mt-3 text-hover-primary">Extraction</h1>                    
             </div>
         </div>
 
-        <div id="kt_app_content" className="app-content flex-column-fluid">
-            <div id="kt_app_content_container" className="app-container container-fluid">
+
+        <div className="app-content flex-column-fluid">
+            <div className="app-container container-fluid">
                 <div className="card">
-                    
                     <div className="card-body pt-0">
                         <table id="kt_datatable_dom_positioning" class="table dataTable table-striped table-row-bordered gy-5 gs-7 border rounded">
                             <thead>

@@ -1,15 +1,22 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React, { useState } from 'react'
 
 export const Sidebar = (prop) => {
+ 
+    var url = window.location.href;
+    var isActive= url.substring(url.lastIndexOf("/") + 1);
+    // console.log(isActive);
+
     return (
       <div id="kt_app_sidebar" className="app-sidebar flex-column" data-kt-drawer="true" data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
         
         <div className="app-sidebar-logo px-6" id="kt_app_sidebar_logo">          
-          <a href="/dashboard"> <h1 className='text-white'>{prop.title} </h1></a>
-            {/* <img alt="Logo" src={prop.logo} className="h-100px app-sidebar-logo-default" />
-            <img alt="Logo" src="assets/media/logos/default-small.svg" className="h-50px app-sidebar-logo-minimize" /> 
-          </a>*/}
+          <a href="/dashboard"> 
+           <h1 className='text-white'>{prop.title} </h1>
+            {/* 
+            <img alt="Logo" src={prop.logo} className="h-100px app-sidebar-logo-default" />
+            <img alt="Logo" src="assets/media/logos/default-small.svg" className="h-50px app-sidebar-logo-minimize" />  
+            */}
+          </a>
 
           <div id="kt_app_sidebar_toggle" className="app-sidebar-toggle btn btn-icon btn-shadow btn-sm btn-color-muted btn-active-color-primary body-bg h-30px w-30px position-absolute top-50 start-100 translate-middle rotate" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="app-sidebar-minimize">            
             <span className="svg-icon svg-icon-2 rotate-180">
@@ -21,13 +28,12 @@ export const Sidebar = (prop) => {
           </div>          
         </div>
         
-        
         <div className="app-sidebar-menu overflow-hidden flex-column-fluid">          
           <div id="kt_app_sidebar_menu_wrapper" className="app-sidebar-wrapper hover-scroll-overlay-y my-5" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer" data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px" data-kt-scroll-save-state="true">
             
             <div className="menu menu-column menu-rounded menu-sub-indention px-3 fs-4" id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
 
-              <div className="menu-item menu-accordion">
+              <div className={"menu-item menu-accordion "+ (isActive === "dashboard" ? "here show" : "") }>
                 <span className="menu-link">
                   <span className="menu-icon">												
                     <span className="svg-icon svg-icon-2">
@@ -43,7 +49,7 @@ export const Sidebar = (prop) => {
                 </span>
               </div>
 
-              <div className="menu-item menu-accordion">										
+              <div className={"menu-item menu-accordion " + (isActive === "create" ? 'here show' : '') }>										
                 <span className="menu-link">
                   <span className="menu-icon">												
                     <span className="svg-icon svg-icon-2">
@@ -57,7 +63,7 @@ export const Sidebar = (prop) => {
                 </span>
               </div>
 
-              <div className="menu-item menu-accordion">										
+              <div className={"menu-item menu-accordion " + (isActive === "extraction" ? 'here show' : '') }>										
                 <span className="menu-link">
                   <span className="menu-icon">												
                     <span className="svg-icon svg-icon-2">
@@ -70,7 +76,6 @@ export const Sidebar = (prop) => {
                   <a href="/extraction" className="menu-title">Extraction</a>
                 </span>
               </div>
-
             </div>
           </div>
         </div>        

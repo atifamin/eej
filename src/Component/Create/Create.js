@@ -10,7 +10,7 @@ export const Create = (prop) => {
         
         <Header/>        
         <div className="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
-            <Sidebar logo={prop.logo} title={prop.title} active={prop.active}/>
+            <Sidebar logo={prop.logo} title={prop.title}/>
           <div className="app-main flex-column flex-row-fluid" id="kt_app_main">
             <div className="d-flex flex-column flex-column-fluid">
               <CreateContent/>
