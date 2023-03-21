@@ -1,8 +1,13 @@
 import React from 'react'
+import {Helmet} from "react-helmet";
 
 export const DashboardContent = () => {
   return (
-    <>
+    <>            
+            <Helmet>
+                <script src="../assets/js/chart_pai.js"></script>
+            </Helmet>
+        
         <div className="col-12 py-5">
             <div className="app-container w-auto">
                 <h1 className="page-heading text-dark fw-bold fs-2 mt-3 text-hover-primary">Statistique</h1>                    

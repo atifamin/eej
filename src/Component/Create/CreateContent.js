@@ -163,27 +163,27 @@ export const CreateContent = () => {
                                     <div className="col-lg-8 fv-row">
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationRadio" id="Jobseeker"/>
-                                            <label className="form-check-label" for="Jobseeker">Chercheur d'Emploi</label>
+                                            <label className="form-check-label" htmlFor="Jobseeker">Chercheur d'Emploi</label>
                                         </div>
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationRadio" id="Training"/>
-                                            <label className="form-check-label" for="Training">En formation</label>
+                                            <label className="form-check-label" htmlFor="Training">En formation</label>
                                         </div>
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationRadio" id="Neet"/>
-                                            <label className="form-check-label" for="Neet">NEET</label>
+                                            <label className="form-check-label" htmlFor="Neet">NEET</label>
                                         </div>
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationRadio" id="Student"/>
-                                            <label className="form-check-label" for="Student">Etudiant</label>
+                                            <label className="form-check-label" htmlFor="Student">Etudiant</label>
                                         </div>                                        
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationRadio" id="Internship"/>
-                                            <label className="form-check-label" for="Internship">En Stage</label>
+                                            <label className="form-check-label" htmlFor="Internship">En Stage</label>
                                         </div>
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationRadio" id="Employed"/>
-                                            <label className="form-check-label" for="Employed">En emploi</label>
+                                            <label className="form-check-label" htmlFor="Employed">En emploi</label>
                                         </div>
                                         
                                     </div>
@@ -193,19 +193,19 @@ export const CreateContent = () => {
                                     <div className="col-lg-8 fv-row">
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationFamilyRadio" id="Single"/>
-                                            <label className="form-check-label" for="Single">Célibataire(e)</label>
+                                            <label className="form-check-label" htmlFor="Single">Célibataire(e)</label>
                                         </div>
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationFamilyRadio" id="Bride"/>
-                                            <label className="form-check-label" for="Bride">Marié(e)</label>
+                                            <label className="form-check-label" htmlFor="Bride">Marié(e)</label>
                                         </div>
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationFamilyRadio" id="Divorce"/>
-                                            <label className="form-check-label" for="Divorce">Divorcé(e)</label>
+                                            <label className="form-check-label" htmlFor="Divorce">Divorcé(e)</label>
                                         </div>
                                         <div className="form-check form-check-custom mb-2 me-3 float-start">
                                             <input className="form-check-input" type="radio" name="SituationFamilyRadio" id="Widower"/>
-                                            <label className="form-check-label" for="Widower">Veuf(e)</label>
+                                            <label className="form-check-label" htmlFor="Widower">Veuf(e)</label>
                                         </div>
                                     </div>
                                 </div>

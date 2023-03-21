@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 
 export const Login = (prop) => {
     return (
@@ -11,7 +10,7 @@ export const Login = (prop) => {
                     <input type="password" className="form-control mb-2" placeholder="Mot de passe" id="pwd"/>
                     <a href="/reinitialiser" className="btn btn-primary mb-2 w-100">
                         <img src={prop.loginIcon} alt={prop.loginIcon}/> Connexion</a>
-                    <a href="/#" className=''>Mot de passe oublié?</a>
+                    <a href="!#" className=''>Mot de passe oublié?</a>
                 </div> 
             </form>
         </div>

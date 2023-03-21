@@ -14,9 +14,9 @@ export const ExtractionContent = () => {
             <div className="app-container container-fluid">
                 <div className="card">
                     <div className="card-body pt-0">
-                        <table id="kt_datatable_dom_positioning" class="table dataTable table-striped table-row-bordered gy-5 gs-7 border rounded">
+                        <table id="kt_datatable_dom_positioning" className="table dataTable table-striped table-row-bordered gy-5 gs-7 border rounded">
                             <thead>
-                                <tr class="fw-bold fs-6 text-gray-800 px-7">
+                                <tr className="fw-bold fs-6 text-gray-800 px-7">
                                     <th>REF</th>
                                     <th>PRENOM ET NO</th>
                                     <th>CIN</th>

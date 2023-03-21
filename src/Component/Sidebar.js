@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export const Sidebar = (prop) => {
- 
     var url = window.location.href;
     var isActive= url.substring(url.lastIndexOf("/") + 1);
     // console.log(isActive);
@@ -35,7 +34,7 @@ export const Sidebar = (prop) => {
               <div className={"menu-item menu-accordion "+ (isActive === "dashboard" ? "here show" : "") }>
                 <span className="menu-link">
                   <span className="menu-icon">
-                    <span class="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span className="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 6C8.7 6 6 8.7 6 12C6 15.3 8.7 18 12 18C15.3 18 18 15.3 18 12C18 8.7 15.3 6 12 6Z" fill="currentColor"/>
                     </svg></span>
                   </span>
@@ -46,7 +45,7 @@ export const Sidebar = (prop) => {
               <div className={"menu-item menu-accordion " + (isActive === "create" ? 'here show' : '') }>										
                 <span className="menu-link">
                   <span className="menu-icon">
-                    <span class="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span className="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 6C8.7 6 6 8.7 6 12C6 15.3 8.7 18 12 18C15.3 18 18 15.3 18 12C18 8.7 15.3 6 12 6Z" fill="currentColor"/>
                     </svg></span>
                   </span>
@@ -57,7 +56,7 @@ export const Sidebar = (prop) => {
               <div className={"menu-item menu-accordion " + (isActive === "extraction" ? 'here show' : '') }>										
                 <span className="menu-link">
                   <span className="menu-icon">												
-                    <span class="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <span className="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 6C8.7 6 6 8.7 6 12C6 15.3 8.7 18 12 18C15.3 18 18 15.3 18 12C18 8.7 15.3 6 12 6Z" fill="currentColor"/>
                     </svg></span>
                   </span>
