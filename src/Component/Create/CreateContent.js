@@ -215,10 +215,10 @@ export const CreateContent = () => {
                 </div>
 
                 <div className="col-12">
-                    <ul className="nav nav-tabs nav-line-tabs mb-5 fs-6">
+                    <ul className="nav nav-tabs nav-line-tabs mb-5 fs-6 py-3">
                        
                         <li className="nav-item">
-                            <a className="nav-link btn btn-flex btn-active-light-success ms-0" data-bs-toggle="tab" href="#kt_tab_pane_1">
+                            <a className="nav-link btn btn-flex btn-active-light-success ms-0 active" data-bs-toggle="tab" href="#kt_tab_pane_1">
                                 <span className="d-flex flex-column align-items-start">
                                     <span className="svg-icon svg-icon-muted svg-icon-2hx">
                                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -297,7 +297,7 @@ export const CreateContent = () => {
                                     </table>
                                 </div>
                             </div>
-                            <div className="card mb-6 mb-xl-9">
+                            <div className="card">
                                 <div className="card-header border-0">
                                     <div className="card-title">
                                         <h2>Expérience professionnelle </h2>
@@ -327,7 +327,7 @@ export const CreateContent = () => {
                             </div>
                         </div>
                         <div className="tab-pane fade" id="kt_tab_pane_2" role="tabpanel">
-                            <div className="card mb-6 mb-xl-9">
+                            <div className="card">
                                 <div className="card-header border-0">
                                     <div className="card-title">
                                         <h2>Expérience professionnelle </h2>
@@ -402,8 +402,7 @@ export const CreateContent = () => {
                                     </table>
                                 </div>
                             </div>
-
-                            <div className="card mb-6 mb-xl-9">
+                            <div className="card">
                                 <div className="card-header border-0">
                                     <div className="card-title">
                                         <h2>Atelier </h2>
@@ -581,10 +580,12 @@ export const CreateContent = () => {
                                             </div>
 
                                         </div>
+                                        <div className="col-12">
+                                            <p className='my-1 fs-5 fw-bold text-center'>Validation du Coordinateur Provincial de l'EEJ</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                                
+                            </div>                             
                         </div>
                     </div>
                 </div>

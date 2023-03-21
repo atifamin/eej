@@ -31,19 +31,13 @@ export const Sidebar = (prop) => {
         <div className="app-sidebar-menu overflow-hidden flex-column-fluid">          
           <div id="kt_app_sidebar_menu_wrapper" className="app-sidebar-wrapper hover-scroll-overlay-y my-5" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer" data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px" data-kt-scroll-save-state="true">
             
-            <div className="menu menu-column menu-rounded menu-sub-indention px-3 fs-4" id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
-
+            <div className="menu menu-column menu-rounded menu-sub-indention px-3 fs-3" id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
               <div className={"menu-item menu-accordion "+ (isActive === "dashboard" ? "here show" : "") }>
                 <span className="menu-link">
-                  <span className="menu-icon">												
-                    <span className="svg-icon svg-icon-2">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="2" y="2" width="9" height="9" rx="2" fill="currentColor" />
-                        <rect opacity="0.3" x="13" y="2" width="9" height="9" rx="2" fill="currentColor" />
-                        <rect opacity="0.3" x="13" y="13" width="9" height="9" rx="2" fill="currentColor" />
-                        <rect opacity="0.3" x="2" y="13" width="9" height="9" rx="2" fill="currentColor" />
-                      </svg>
-                    </span>												
+                  <span className="menu-icon">
+                    <span class="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 6C8.7 6 6 8.7 6 12C6 15.3 8.7 18 12 18C15.3 18 18 15.3 18 12C18 8.7 15.3 6 12 6Z" fill="currentColor"/>
+                    </svg></span>
                   </span>
                   <a href="/dashboard" className="menu-title">Tableau de bord</a>
                 </span>
@@ -51,13 +45,10 @@ export const Sidebar = (prop) => {
 
               <div className={"menu-item menu-accordion " + (isActive === "create" ? 'here show' : '') }>										
                 <span className="menu-link">
-                  <span className="menu-icon">												
-                    <span className="svg-icon svg-icon-2">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.3" d="M19 22H5C4.4 22 4 21.6 4 21V3C4 2.4 4.4 2 5 2H14L20 8V21C20 21.6 19.6 22 19 22Z" fill="currentColor"></path>
-                        <path d="M15 8H20L14 2V7C14 7.6 14.4 8 15 8Z" fill="currentColor"></path>
-                      </svg>
-                    </span>
+                  <span className="menu-icon">
+                    <span class="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 6C8.7 6 6 8.7 6 12C6 15.3 8.7 18 12 18C15.3 18 18 15.3 18 12C18 8.7 15.3 6 12 6Z" fill="currentColor"/>
+                    </svg></span>
                   </span>
                   <a href="/create" className="menu-title">Fiche de Plan d'Action</a>
                 </span>
@@ -66,12 +57,9 @@ export const Sidebar = (prop) => {
               <div className={"menu-item menu-accordion " + (isActive === "extraction" ? 'here show' : '') }>										
                 <span className="menu-link">
                   <span className="menu-icon">												
-                    <span className="svg-icon svg-icon-2">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M20 7H3C2.4 7 2 6.6 2 6V3C2 2.4 2.4 2 3 2H20C20.6 2 21 2.4 21 3V6C21 6.6 20.6 7 20 7ZM7 9H3C2.4 9 2 9.4 2 10V20C2 20.6 2.4 21 3 21H7C7.6 21 8 20.6 8 20V10C8 9.4 7.6 9 7 9Z" fill="currentColor"></path>
-                        <path opacity="0.3" d="M20 21H11C10.4 21 10 20.6 10 20V10C10 9.4 10.4 9 11 9H20C20.6 9 21 9.4 21 10V20C21 20.6 20.6 21 20 21Z" fill="currentColor"></path>
-                      </svg>
-                    </span>
+                    <span class="svg-icon svg-icon-muted svg-icon-1hx"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 6C8.7 6 6 8.7 6 12C6 15.3 8.7 18 12 18C15.3 18 18 15.3 18 12C18 8.7 15.3 6 12 6Z" fill="currentColor"/>
+                    </svg></span>
                   </span>
                   <a href="/extraction" className="menu-title">Extraction</a>
                 </span>

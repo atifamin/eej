@@ -90,7 +90,7 @@ export const DashboardContent = () => {
                             <span className='badge badge-success fw-bolder ms-2'> 218 </span>
                         </p>
                     </div>
-                    <div className="col-md-8 mb-5">
+                    <div className="col-md-8 mb-5 mb-md-0">
                         <div className="card h-md-100">
                             <div className="card-body">
                                 <div className="tab-content ps-4 pe-6">
@@ -100,27 +100,26 @@ export const DashboardContent = () => {
                         </div>
                     </div>
                     <div className="col-md-4 ps-md-1">
-                            <div className="w-100 mb-5">
-                                <div className="card-body">
-                                    <div id="kt_docs_google_chart_pie_sex"></div>
-                                </div>
+                        <div className="w-100 mb-5">
+                            <div className="card-body">
+                                <div id="kt_docs_google_chart_pie_sex"></div>
                             </div>
-                            <div className="w-100 mb-5">
-                                <div className="card-body">
-                                    <div id="kt_docs_google_chart_pie_zones"></div>
-                                </div>
+                        </div>
+                        <div className="w-100 mb-5">
+                            <div className="card-body">
+                                <div id="kt_docs_google_chart_pie_zones"></div>
                             </div>
-                            <div className="w-100 mb-5">
-                                <div className="card-body">
-                                    <div id="kt_docs_google_chart_pie_parcours"></div>
-                                </div>
+                        </div>
+                        <div className="w-100 mb-5">
+                            <div className="card-body">
+                                <div id="kt_docs_google_chart_pie_parcours"></div>
                             </div>
-                            <div className="w-100 mb-5">
-                                <div className="card-body">
-                                    <div id="kt_docs_google_chart_pie_situation"></div>
-                                </div>
+                        </div>
+                        <div className="w-100">
+                            <div className="card-body">
+                                <div id="kt_docs_google_chart_pie_situation"></div>
                             </div>
-                        
+                        </div>                        
                     </div>
                 </div>
             </div>
