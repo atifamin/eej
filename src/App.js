@@ -9,7 +9,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 
 function App() {
   
-  let logo= window.location.origin + '/images/logo.png';
+  let logo= window.location.origin + '/images/Company.png';
   let icon= window.location.origin + '/images/login.png';
   let title="EEJ";
   

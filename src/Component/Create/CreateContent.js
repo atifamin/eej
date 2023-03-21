@@ -216,8 +216,9 @@ export const CreateContent = () => {
 
                 <div className="col-12">
                     <ul className="nav nav-tabs nav-line-tabs mb-5 fs-6">
-                        <li className="nav-item mb-md-2">
-                            <a className="nav-link btn btn-flex btn-active-light-primary active" data-bs-toggle="tab" href="#kt_tab_pane_1">
+                       
+                        <li className="nav-item">
+                            <a className="nav-link btn btn-flex btn-active-light-success ms-0" data-bs-toggle="tab" href="#kt_tab_pane_1">
                                 <span className="d-flex flex-column align-items-start">
                                     <span className="svg-icon svg-icon-muted svg-icon-2hx">
                                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -230,8 +231,9 @@ export const CreateContent = () => {
                                 </span>
                             </a>
                         </li>
-                        <li className="nav-item mb-md-2">
-                            <a className="nav-link btn btn-flex btn-active-light-warning ms-0" data-bs-toggle="tab" href="#kt_tab_pane_2">
+
+                        <li className="nav-item">
+                            <a className="nav-link btn btn-flex btn-active-light-success ms-0" data-bs-toggle="tab" href="#kt_tab_pane_2">
                                 <span className="d-flex flex-column align-items-start">
                                     <span className="svg-icon svg-icon-muted svg-icon-2hx">
                                         <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -240,10 +242,11 @@ export const CreateContent = () => {
                                         <rect opacity="0.3" width="12" height="3" rx="1.5" fill="currentColor"/>
                                         </svg>
                                     </span>
-                                    <span className="fs-4 fw-bold mt-2">2-  Analyse de la situation du bénéficiaire (Constats)</span>
+                                    <span className="fs-4 fw-bold mt-2">2- Analyse de la situation du bénéficiaire (Constats)</span>
                                 </span>
                             </a>
                         </li>
+
                         <li className="nav-item">
                             <a className="nav-link btn btn-flex btn-active-light-success ms-0" data-bs-toggle="tab" href="#kt_tab_pane_3">
                                 <span className="d-flex flex-column align-items-start">
