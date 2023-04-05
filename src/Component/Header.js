@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 export const Header = () => {
-	let ssj_img= window.location.origin + '/images/logo.png';
 
     return (      
 		<div id="kt_app_header" className="app-header">
@@ -31,7 +30,6 @@ export const Header = () => {
 								</span>
 							</div>
 							*/}
-								<img className='float-end' src={ssj_img} alt="logo" />
 						</div>
 					</div>
 				

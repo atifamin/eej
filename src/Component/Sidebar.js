@@ -1,6 +1,7 @@
 import React from 'react'
 
 export const Sidebar = (prop) => {
+    let eej_img= window.location.origin + '/images/logo_0.png';
     var url = window.location.href;
     var isActive= url.substring(url.lastIndexOf("/") + 1);
     // console.log(isActive);
@@ -8,13 +9,9 @@ export const Sidebar = (prop) => {
     return (
       <div id="kt_app_sidebar" className="app-sidebar flex-column" data-kt-drawer="true" data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
         
-        <div className="app-sidebar-logo px-6" id="kt_app_sidebar_logo">          
+        <div className="app-sidebar-logo px-17 border-0 h-auto" id="kt_app_sidebar_logo">          
           <a href="/dashboard"> 
-           <h1 className='text-white'>{prop.title} </h1>
-            {/* 
-            <img alt="Logo" src={prop.logo} className="h-100px app-sidebar-logo-default" />
-            <img alt="Logo" src="assets/media/logos/default-small.svg" className="h-50px app-sidebar-logo-minimize" />  
-            */}
+            <img className='img-fluid mt-3' src={eej_img} alt="logo" /> 
           </a>
 
           <div id="kt_app_sidebar_toggle" className="app-sidebar-toggle btn btn-icon btn-shadow btn-sm btn-color-muted btn-active-color-primary body-bg h-30px w-30px position-absolute top-50 start-100 translate-middle rotate" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="app-sidebar-minimize">            

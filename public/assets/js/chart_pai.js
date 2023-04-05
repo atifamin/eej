@@ -13,50 +13,66 @@ $(document).ready(function () {
         data.addRows([
             [{
                 v: [8, 0, 0],
-                f: '8 am'
-            }, 1, .25],
+                f: 'Mai'
+            }, 244, 65],
             [{
                 v: [9, 0, 0],
-                f: '9 am'
-            }, 2, .5],
+                f: 'Juin'
+            }, 488, 137],
             [{
                 v: [10, 0, 0],
-                f: '10 am'
-            }, 3, 1],
+                f: 'Juillet'
+            }, 732, 181],
             [{
                 v: [11, 0, 0],
-                f: '11 am'
+                f: 'Aout'
             }, 4, 2.25],
             [{
                 v: [12, 0, 0],
-                f: '12 pm'
+                f: 'Septembre'
             }, 5, 2.25],
             [{
                 v: [15, 0, 0],
-                f: '3 pm'
+                f: 'Octobre'
             }, 8, 5.25],
             [{
                 v: [16, 0, 0],
-                f: '4 pm'
+                f: 'Novembre'
             }, 9, 7.5],
             [{
                 v: [17, 0, 0],
-                f: '5 pm'
+                f: 'Décembre'
+            }, 10, 10],
+            [{
+                v: [17, 0, 0],
+                f: 'Janvier'
+            }, 10, 10],
+            [{
+                v: [17, 0, 0],
+                f: 'Février'
+            }, 10, 10],
+            [{
+                v: [17, 0, 0],
+                f: 'Mars'
+            }, 10, 10],
+            [{
+                v: [17, 0, 0],
+                f: 'Avril'
             }, 10, 10],
         ]);    
         var options = {
-            title: 'Demo Graph',
+            title: "Cumul Annuel d'objectif TAMANAR",
             focusTarget: 'category',
             hAxis: {
-                title: 'Time of Day',
-                format: 'h:mm a',
+                title: 'Monthly Report',
+                // format: 'h:mm a',
                 viewWindow: {
                     min: [7, 30, 0],
                     max: [17, 30, 0]
                 },
             },
             vAxis: {
-                title: 'Rating (scale of 1-10)'
+                title: 'Cumul Objectif et Cumul Réalisation ESPACE TAMANAR'
             },
             colors: ['#6e4ff5', '#fe3995']
         };    

@@ -95,36 +95,38 @@ export const DashboardContent = () => {
                             <span className='badge badge-success fw-bolder ms-2'> 218 </span>
                         </p>
                     </div>
-                    <div className="col-md-8 mb-5 mb-md-0">
+                    <div className="col-xl-8 mb-5 mb-xl-0">
                         <div className="card h-md-100">
                             <div className="card-body">
                                 <div className="tab-content ps-4 pe-6">
-                                    <div id="kt_docs_google_chart_column"></div>
+                                    <div id="kt_docs_google_chart_column" class="w-100"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 ps-md-1">
-                        <div className="w-100 mb-5">
-                            <div className="card-body">
-                                <div id="kt_docs_google_chart_pie_sex"></div>
+                    <div className="col-xl-4 ps-xl-1">
+                        <div className="row">
+                            <div className="col-sm-6 col-xl-12 px-xl-1 mb-5">
+                                <div className="card-body">
+                                    <div id="kt_docs_google_chart_pie_sex"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-100 mb-5">
-                            <div className="card-body">
-                                <div id="kt_docs_google_chart_pie_zones"></div>
+                            <div className="col-sm-6 col-xl-12 px-xl-1 mb-5">
+                                <div className="card-body">
+                                    <div id="kt_docs_google_chart_pie_zones"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-100 mb-5">
-                            <div className="card-body">
-                                <div id="kt_docs_google_chart_pie_parcours"></div>
+                            <div className="col-sm-6 col-xl-12 px-xl-1 mb-5">
+                                <div className="card-body">
+                                    <div id="kt_docs_google_chart_pie_parcours"></div>
+                                </div>
                             </div>
-                        </div>
-                        <div className="w-100">
-                            <div className="card-body">
-                                <div id="kt_docs_google_chart_pie_situation"></div>
+                            <div className="col-sm-6 col-xl-12 px-xl-1">
+                                <div className="card-body">
+                                    <div id="kt_docs_google_chart_pie_situation"></div>
+                                </div>
                             </div>
-                        </div>                        
+                        </div>                     
                     </div>
                 </div>
             </div>
