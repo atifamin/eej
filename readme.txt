@@ -1,2 +1,2 @@
 To run project 
-just run comment npm start on terminal.
+just run command "npm start" on terminal.
